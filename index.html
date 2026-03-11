@@ -1,5 +1,10 @@
-
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple of Sirius - Coming Soon</title>
+    <style>
         body {
             margin: 0;
             padding: 0;
@@ -9,14 +14,69 @@
             align-items: center;
             font-family: 'Helvetica Neue', Arial, sans-serif;
             
-            /* --- NEW BACKGROUND CODE --- */
-            background-image: url('background.jpeg');
-            background-size: contain; /* This forces the whole image to fit */
+            /* Background Image Settings */
+            background-image: url('background.jpg');
+            background-size: contain; 
             background-position: center;
             background-repeat: no-repeat;
-            background-color: #0b132b; /* Acts as a backup color */
-            /* --------------------------- */
+            background-color: #0b132b; /* Deep night sky blue */
             
             color: #ffffff;
             text-align: center;
         }
+        
+        /* The box behind your text to make it readable */
+        .container {
+            background: rgba(11, 19, 43, 0.85); /* Semi-transparent blue */
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            margin-top: 0;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #a0a5b5;
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+        }
+
+        /* Styling for your email link */
+        .contact-note {
+            font-size: 1rem;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+
+        a {
+            color: #64b5f6; /* A soft, glowing blue for the link */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Temple of Sirius</h1>
+        <p>Details are coming soon.</p>
+        
+        <p class="contact-note">
+            Connect with us: <br>
+            <a href="mailto:priestessofsiriusstar@gmail.com">priestessofsiriusstar@gmail.com</a>
+        </p>
+    </div>
+</body>
+</html>
